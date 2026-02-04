@@ -7,7 +7,7 @@ const testimonials = [
     name: "Sarah Chen",
     role: "Pre-Med Student",
     university: "Stanford University",
-    content: "ReviseAI completely changed how I study for my MCAT. The spaced repetition system helped me retain complex biochemistry concepts I used to forget within days.",
+    content: "Revisely completely changed how I study for my MCAT. The spaced repetition system helped me retain complex biochemistry concepts I used to forget within days.",
     rating: 5,
     avatar: "SC",
   },
@@ -50,7 +50,7 @@ export const TestimonialsSection = () => {
             Loved by students worldwide
           </h2>
           <p className="text-muted-foreground text-lg">
-            See what students from top universities are saying about ReviseAI.
+            See what students from top universities are saying about Revisely.
           </p>
         </motion.div>
 

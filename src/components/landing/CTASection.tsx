@@ -3,6 +3,7 @@ import { useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { ArrowRight, CheckCircle, Sparkles } from "lucide-react";
+import { createClient } from "@supabase/supabase-js";
 
 export const CTASection = () => {
   const ref = useRef(null);
@@ -10,15 +11,19 @@ export const CTASection = () => {
   const [email, setEmail] = useState("");
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const supabase = createClient(import.meta.env.VITE_SUPABASE_URL, import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY);
+
+  const handleSubmit = async(e: React.FormEvent) => {
     e.preventDefault();
     if (email) {
+      const { error } = await supabase.from('users').insert({ emailId:email });
+      console.log("error",error);
       setIsSubmitted(true);
     }
   };
 
   return (
-    <section ref={ref} className="section-padding bg-background relative overflow-hidden">
+    <section ref={ref} id="ctaButton" className="section-padding bg-background relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent" />

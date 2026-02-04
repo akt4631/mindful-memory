@@ -20,7 +20,7 @@ const benefits = [
   {
     icon: TrendingUp,
     title: "Improve Your Grades",
-    description: "Students using ReviseAI report an average improvement of one full grade within a semester.",
+    description: "Students using Revisely report an average improvement of one full grade within a semester.",
     stat: "1+",
     statLabel: "Grade increase",
   },

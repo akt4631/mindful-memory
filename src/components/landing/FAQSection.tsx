@@ -9,8 +9,8 @@ import {
 
 const faqs = [
   {
-    question: "What makes ReviseAI different from other study apps?",
-    answer: "ReviseAI combines AI-powered content understanding with science-backed spaced repetition. Unlike simple flashcard apps, we analyze your notes, build contextual understanding, and create personalized learning paths that adapt to how you learn best.",
+    question: "What makes Revisely different from other study apps?",
+    answer: "Revisely combines AI-powered content understanding with science-backed spaced repetition. Unlike simple flashcard apps, we analyze your notes, build contextual understanding, and create personalized learning paths that adapt to how you learn best.",
   },
   {
     question: "How does the voice input feature work?",
@@ -21,15 +21,15 @@ const faqs = [
     answer: "Absolutely. All your notes and data are encrypted end-to-end. We never share or sell your information to third parties. Your study materials remain completely private and under your control.",
   },
   {
-    question: "What subjects does ReviseAI support?",
-    answer: "ReviseAI works with any subject—from sciences and medicine to law, humanities, and languages. Our AI adapts to the specific terminology and concepts of your field of study.",
+    question: "What subjects does Revisely support?",
+    answer: "Revisely works with any subject—from sciences and medicine to law, humanities, and languages. Our AI adapts to the specific terminology and concepts of your field of study.",
   },
   {
-    question: "Can I use ReviseAI on mobile devices?",
-    answer: "Yes! ReviseAI is a responsive web application that works beautifully on any device—smartphone, tablet, or desktop. Study wherever you are, whenever you have a moment.",
+    question: "Can I use Revisely on mobile devices?",
+    answer: "Yes! Revisely is a responsive web application that works beautifully on any device—smartphone, tablet, or desktop. Study wherever you are, whenever you have a moment.",
   },
   {
-    question: "How much does ReviseAI cost?",
+    question: "How much does Revisely cost?",
     answer: "We're currently offering free early access to students who join our waitlist. Early adopters will receive 3 months free once we launch, plus a significant discount on our premium plans.",
   },
 ];
@@ -54,7 +54,7 @@ export const FAQSection = () => {
             Frequently asked questions
           </h2>
           <p className="text-muted-foreground text-lg">
-            Everything you need to know about ReviseAI.
+            Everything you need to know about Revisely.
           </p>
         </motion.div>
 

@@ -23,7 +23,7 @@ export const Navbar = () => {
               <Brain className="w-5 h-5 text-primary-foreground" />
             </div>
             <span className="font-display font-bold text-xl text-foreground">
-              ReviseAI
+              Revisely
             </span>
           </a>
 
@@ -42,12 +42,16 @@ export const Navbar = () => {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center gap-3">
+            <a href="#ctaButton">
             <Button variant="ghost" size="sm">
               Log in
             </Button>
+            </a>
+            <a href="#ctaButton">
             <Button variant="hero" size="sm">
               Get Early Access
             </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}

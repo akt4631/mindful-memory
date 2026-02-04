@@ -48,8 +48,8 @@ export const HeroSection = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10"
           >
-            Transform your notes into lasting knowledge. ReviseAI uses science-backed 
-            spaced repetition to help you retain what you learn—forever.
+            Transform your notes into lasting knowledge. Revisely uses science-backed 
+            spaced repetition to help you retain what you learn-forever.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -59,13 +59,17 @@ export const HeroSection = () => {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16"
           >
+            <a href="#ctaButton">
             <Button variant="hero" size="xl">
               Join the Waitlist
               <ArrowRight className="w-5 h-5" />
             </Button>
+            </a>
+            <a href="#how-it-works">
             <Button variant="heroOutline" size="xl">
               See How It Works
             </Button>
+            </a>
           </motion.div>
 
           {/* Feature Cards */}
@@ -82,6 +86,7 @@ export const HeroSection = () => {
             ].map((feature, index) => (
               <div
                 key={feature.label}
+                style={{display:"flex",justifyContent:"center",flexDirection:"column",alignItems:"center"}}
                 className="glass-card p-5 group hover:shadow-lg transition-all duration-300"
               >
                 <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center mb-3 group-hover:bg-primary/20 transition-colors">

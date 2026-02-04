@@ -24,7 +24,7 @@ export const Footer = () => {
               <div className="w-9 h-9 rounded-xl bg-primary flex items-center justify-center">
                 <Brain className="w-5 h-5 text-primary-foreground" />
               </div>
-              <span className="font-display font-bold text-xl">ReviseAI</span>
+              <span className="font-display font-bold text-xl">Revisely</span>
             </div>
             <p className="text-background/70 mb-6 max-w-sm">
               Transform your notes into lasting knowledge with AI-powered 
@@ -68,7 +68,7 @@ export const Footer = () => {
         {/* Bottom bar */}
         <div className="mt-16 pt-8 border-t border-background/10 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-background/50 text-sm">
-            © {new Date().getFullYear()} ReviseAI. All rights reserved.
+            © {new Date().getFullYear()} Revisely. All rights reserved.
           </p>
           <p className="text-background/50 text-sm">
             Made with ❤️ for students everywhere

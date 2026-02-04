@@ -57,7 +57,7 @@ export const ProblemSection = () => {
               The Solution
             </div>
             <h2 className="font-display text-3xl sm:text-4xl font-bold text-foreground mb-6">
-              ReviseAI makes learning stick
+              Revisely makes learning stick
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
               Our AI-powered platform uses proven spaced repetition science 
